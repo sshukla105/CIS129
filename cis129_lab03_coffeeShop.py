@@ -14,7 +14,7 @@ Output:
 The program prints a detailed receipt displaying the number of items, cost per item, tax amount, and total.
 """
 
-print('My Coffee Shop Receipt')
+print('Shiv's Coffee Shop Receipt')
 
 #Prices of items
 price_coffee = 5
@@ -45,7 +45,7 @@ total = round(total,2)
 tax = total - subtotal
 tax = round(tax,2)
 
-#Displays the receipt
+#Displays the receipt and thanks the user
 print(f'{num_coffee} Coffee(s) at ${price_coffee} each: ${form_coffee}')
 print(f'{num_muffin} Muffin(s) at ${price_muffin} each: ${form_muffin}')
 print(f'{num_fruit} Fruit(s) at ${price_fruit} each: ${form_fruit}')
@@ -53,3 +53,4 @@ print(f'{num_crois} Croissant(s) at ${price_crois} each: ${form_crois}')
 print(f'6% tax: ${tax}')
 print('---------')
 print(f'Total: ${total}')
+print('\nThank you for your purchase.\nWe hope to see you again soon!')
